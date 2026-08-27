@@ -1,7 +1,7 @@
 print("simple calculator")
 
 a = float(input("Enter first number: "))
-op = input("Enter operator (+, -, *,%, /): ")
+op = input("Enter operator (+, -, *,**,%, /): ")
 b = float(input("Enter second number: "))
 
 if op == "+":
@@ -10,6 +10,8 @@ elif op == "-":
     print("Result:", a - b)
 elif op == "*":
     print("Result:", a * b)
+elif op == "**":
+    print("Result:", a ** b)
 elif op == "%":
     print("Result:", a % b)
 elif op == "/":
