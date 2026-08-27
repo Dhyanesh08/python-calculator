@@ -18,3 +18,5 @@ op = input("Enter operator (+, -, *,**,%, /): ")
 b = float(input("Enter second number: "))
 operations={"+": add, "-": subtract, "*": multiply, "**": power, "%": modulo, "/": divide}
 print("Result:", operations[op](a,b))
+
+
