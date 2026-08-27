@@ -6,6 +6,8 @@ A simple calculator built using Python.
 - Addition
 - Subtraction
 - Multiplication
+- Exponent
+- Modulus
 - Division
 
 ## Technologies Used
