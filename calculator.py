@@ -16,26 +16,5 @@ def divide(a,b):
 a = float(input("Enter first number: "))
 op = input("Enter operator (+, -, *,**,%, /): ")
 b = float(input("Enter second number: "))
-<<<<<<< HEAD
 operations={"+": add, "-": subtract, "*": multiply, "**": power, "%": modulo, "/": divide}
 print("Result:", operations[op](a,b))
-=======
-
-if op == "+":
-    print("Result:", a + b)
-elif op == "-":
-    print("Result:", a - b)
-elif op == "*":
-    print("Result:", a * b)
-elif op == "**":
-    print("Result:", a ** b)
-elif op == "%":
-    print("Result:", a % b)
-elif op == "/":
-    if b == 0:
-        print("Cannot divide by zero")
-    else:
-        print("Result:", a / b)
-else:
-    print("Invalid operator")
->>>>>>> 8dadde8d7024cf3d98166b73e23979477991abd0
