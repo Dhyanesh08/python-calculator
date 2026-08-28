@@ -13,10 +13,27 @@ def divide(a,b):
     if b == 0:
         return "Cannot divide by zero"
     return a / b
-a = float(input("Enter first number: "))
-op = input("Enter operator (+, -, *,**,%, /): ")
-b = float(input("Enter second number: "))
-operations={"+": add, "-": subtract, "*": multiply, "**": power, "%": modulo, "/": divide}
-print("Result:", operations[op](a,b))
-
-
+operations={"+": add, "-": subtract, "*": multiply, "**": power, "%": modulo, "/": divide}     
+while True:
+        while True:
+            try:
+                a = float(input("Enter first number: "))
+                break
+            except ValueError:
+                print("Invalid input. Please enter a number.")
+        while True:
+            try:
+                b = float(input("Enter second number: "))
+                break
+            except ValueError:
+                print("Invalid input. Please enter a number.")
+        while True:  
+            op = input("Enter operator (+, -, *,**,%, /): ")
+            try:
+                print("Result:", operations[op](a,b))
+                break
+            except KeyError:
+                print("Invalid operator. Please try again.")
+        again = input("Do you want to perform another calculation? (y/n): ")
+        if again == "n":
+            break
