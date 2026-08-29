@@ -9,6 +9,11 @@ A simple calculator built using Python.
 - Exponent
 - Modulus
 - Division
+- square Root
+- Cube Root
+- Sin
+- Cos
+- log
 
 ## Technologies Used
 - Python
