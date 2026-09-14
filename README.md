@@ -13,7 +13,7 @@ A simple calculator built using Python.
 - Cube Root
 - Sin
 - Cos
-- lo
+- log
 
 ## Technologies Used
 - Python
